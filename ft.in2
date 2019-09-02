@@ -1,0 +1,53 @@
+create Joe M
+create Mary F
+marry Joe Mary
+beget Jack M Mary
+beget Jill F Mary
+create Hilda F
+marry Hilda Jack
+beget Larry M Hilda
+beget Moe M Hilda
+beget Curly M Hilda
+create Paul M
+marry Paul Jill
+beget April F Jill
+beget May F Jill
+beget June F Jill
+beget July F Jill
+create Ellen F
+create Bruce M
+marry Ellen Curly
+beget Jenny F Ellen
+marry Bruce Jenny
+beget Ed M Jenny
+beget Kay F Jenny
+beget Tony M Ellen
+create Steve M
+marry Steve Kay
+beget John M Kay
+display Joe
+disown Curly
+display Joe
+marry Steve May
+beget One M May
+beget Two M May
+beget Three M May
+beget Four M May
+beget Five M May
+create Julia F
+marry Julia Bruce
+beget Sandy F Julia
+beget Tom M Julia
+marry Tom July
+beget Richard M July
+display Julia
+disown Tom
+display Julia
+display Jill
+clear
+create Martha F
+create Joe M
+marry Martha Joe
+beget Simon M Martha
+display Joe
+display Martha

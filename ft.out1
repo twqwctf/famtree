@@ -1,0 +1,52 @@
+
+ display Joe
+
+Joe  Mary
+     Jack
+     Jill
+
+
+ display Hilda
+
+Hilda  Jack
+     Larry
+     Moe
+     Curly
+
+
+ display Joe
+
+Joe  Mary
+     Jack  Hilda
+           Larry
+           Moe
+           Curly
+     Jill
+
+
+ display Jenny
+
+Jenny  Bruce
+     Ed
+     Kay  Steve
+           John
+
+
+ display Joe
+
+Joe  Mary
+     Jack  Hilda
+           Larry
+           Moe
+           Curly  Ellen
+                 Jenny  Bruce
+                       Ed
+                       Kay  Steve
+                             John
+                 Tony
+     Jill  Paul
+           April
+           May
+           June
+           July
+

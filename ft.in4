@@ -1,0 +1,29 @@
+create Fred
+create Fred M
+marry Wilma Fred
+create Wilma F
+marry Wilma Fred
+this line is not valid at all
+beget Pebbles F Wilma
+display Fred
+beget Dino M Fred
+beget Dino Fred
+beget Fred F Wilma
+display Fred
+create Barney M
+create Betty F
+beget Bambam M Betty
+display Barney
+marry Barney Betty
+beget Bambam M Betty
+display Barney
+create Dino M
+marry Bambam Dino
+marry Bambam Pebbles
+beget Kazoo M Pebbles
+display Fred
+display Betty
+question Bambam sister Pebbles
+question spouse Betty Fred
+query spouse Moonrock
+question Bambam spouse Pebbles

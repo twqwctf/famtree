@@ -1,0 +1,88 @@
+create Fred
+
+ERROR IN LINE
+---------------------
+marry Wilma Fred
+
+MARRY: Error- person not found
+---------------------
+this line is not valid at all
+
+ERROR IN LINE
+---------------------
+
+ display Fred
+
+Fred  Wilma
+     Pebbles
+
+beget Dino M Fred
+
+BEGET: error- mother not female
+---------------------
+beget Dino Fred
+
+BEGET: error- mother does not exist
+---------------------
+beget Fred F Wilma
+
+BEGET: error- child already exists
+---------------------
+
+ display Fred
+
+Fred  Wilma
+     Pebbles
+
+beget Bambam M Betty
+
+BEGET: error- mother not married
+---------------------
+
+ display Barney
+
+Barney
+
+
+ display Barney
+
+Barney  Betty
+     Bambam
+
+marry Bambam Dino
+
+MARRY: Error- gay marriage
+---------------------
+
+ display Fred
+
+Fred  Wilma
+     Pebbles  Bambam
+           Kazoo
+
+
+ display Betty
+
+Betty  Barney
+     Bambam  Pebbles
+           Kazoo
+
+
+ question Bambam sister Pebbles
+
+question Bambam sister Pebbles
+
+ERROR IN LINE
+---------------------
+question spouse Betty Fred
+
+QUESTION: Error- person not found
+---------------------
+query spouse Moonrock
+
+QUERY: Error- person not found
+---------------------
+
+ question Bambam spouse Pebbles
+
+Yes

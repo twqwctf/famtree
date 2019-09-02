@@ -1,0 +1,39 @@
+create Joe M
+create Mary F
+marry Joe Mary
+beget Jack M Mary
+beget Jill F Mary
+create Hilda F
+marry Hilda Jack
+beget Larry M Hilda
+beget Moe M Hilda
+beget Curly M Hilda
+create Paul M
+marry Paul Jill
+beget April F Jill
+beget May F Jill
+beget June F Jill
+beget July F Jill
+create Ellen F
+create Bruce M
+marry Ellen Curly
+beget Jenny F Ellen
+marry Bruce Jenny
+beget Ed M Jenny
+beget Kay F Jenny
+beget Tony M Ellen
+create Steve M
+marry Steve Kay
+beget John M Kay
+question John spouse Kay
+question Ellen spouse Larry
+question Ed child Jack
+question June child Jill
+question June child Paul
+question Tony parent Ellen
+question Joe parent Jack
+query child Joe
+query child Jill
+query parent Tony
+query spouse Bruce
+query spouse John

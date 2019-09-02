@@ -1,0 +1,52 @@
+
+ question John spouse Kay
+
+No
+
+ question Ellen spouse Larry
+
+No
+
+ question Ed child Jack
+
+No
+
+ question June child Jill
+
+Yes
+
+ question June child Paul
+
+Yes
+
+ question Tony parent Ellen
+
+No
+
+ question Joe parent Jack
+
+Yes
+
+ query child Joe
+
+Jack
+Jill
+
+ query child Jill
+
+April
+May
+June
+July
+
+ query parent Tony
+
+Ellen
+Curly
+
+ query spouse Bruce
+
+Jenny
+
+ query spouse John
+
